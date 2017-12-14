@@ -36,7 +36,7 @@ class SpellPage extends Component {
   }
 
   componentDidMount() {
-    axios.get("http://localhost:3437/spells")
+    axios.get("/dndapi/spells")
       .then((response) => {
         let spells = response.data;
         let filteredSpells = filterSpellsByName(spells, this.state.search);

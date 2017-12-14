@@ -18,7 +18,7 @@ class AppComponent extends Component {
   }
 
   componentDidMount() {
-    axios.get("http://localhost:3437/spells")
+    axios.get("/dndapi/spells")
       .then((response) => {
         let spells = response.data;
         // let spells = response.data.results.map((spell) =>
@@ -32,7 +32,7 @@ class AppComponent extends Component {
       .catch(function (error) {
         console.log(error);
       });
-    axios.get("http://localhost:3437/classes")
+    axios.get("/dndapi/classes")
       .then((response) => {
         let classes = response.data.results;
         // let classes = response.data.results.map((cl) =>
