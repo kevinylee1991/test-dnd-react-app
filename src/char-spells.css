@@ -1,0 +1,10 @@
+.spell-levels-header {
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.spell-levels-header:hover {
+	background: #f2f2f2;
+}

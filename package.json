@@ -1,0 +1,25 @@
+{
+  "name": "dnd-char-sheet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "axios": "0.17.1",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.4.4",
+    "moment": "^2.19.2",
+    "async": "^2.6.0",
+    "redux": "^3.7.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

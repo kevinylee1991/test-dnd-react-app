@@ -1,0 +1,23 @@
+.spell-page {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.spell-page .spell-box {
+	margin-left: 0px;
+}
+
+.search-box {
+	position: relative;
+}
+
+.search-box .search-icon {
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	font-size: 16px;
+}
+
+.search-box input {
+	padding-left: 30px;
+}
